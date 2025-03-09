@@ -1,0 +1,107 @@
+body{
+    background-color: lightyellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* home page part 01 */
+.bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:lightgreen ;
+    width: 90%;
+    gap: 80px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.bar ul li {
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    height: 600px;
+    width: 50%;
+    border-radius: 15px;
+}
+.first{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    padding: 20px;
+   
+
+}
+p{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(27, 188, 194);
+}
+.second{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    padding: 20px;
+
+}
+/* scheduel page part 02 */
+.table img{
+    width: 30%;
+}
+.change{
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+table{
+    width: 30%;
+    height: 200px;
+}
+th{
+    background-color: aqua;
+    color: lightcoral;
+    font-size: large;
+    padding: 10px;
+}
+td{
+    background-color: brown;
+    color: whitesmoke;
+    
+}
+    /* activity page part 03 */
+.activity li{
+    font-size:x-large;
+    color: red;
+}
+.activity p {
+    font-size: large;
+}
+.intro{
+    text-align: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.contact a{
+    color: salmon;
+    font-size: x-large;
+}
